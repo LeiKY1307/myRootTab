@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="startPublishView" customModule="MyRootTab" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="26p-Nn-V8N"/>
+                <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGF-gx-NIQ" userLabel="msak">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cGF-gx-NIQ" secondAttribute="bottom" id="Czs-jW-Gmc"/>
+                <constraint firstItem="26p-Nn-V8N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="U2D-75-DKc"/>
+                <constraint firstItem="cGF-gx-NIQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z3C-UA-Dqk"/>
+                <constraint firstAttribute="bottom" secondItem="26p-Nn-V8N" secondAttribute="bottom" id="hGI-tF-aNL"/>
+                <constraint firstAttribute="trailing" secondItem="cGF-gx-NIQ" secondAttribute="trailing" id="knj-0W-xMe"/>
+                <constraint firstItem="26p-Nn-V8N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lHq-N1-FEP"/>
+                <constraint firstAttribute="trailing" secondItem="26p-Nn-V8N" secondAttribute="trailing" id="wh5-A5-gCi"/>
+                <constraint firstItem="cGF-gx-NIQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zZU-Rd-U54"/>
+            </constraints>
+            <connections>
+                <outlet property="backgroundView" destination="26p-Nn-V8N" id="CeX-g6-55K"/>
+            </connections>
+        </view>
+    </objects>
+</document>
